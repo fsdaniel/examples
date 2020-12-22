@@ -5,7 +5,7 @@ metadata:
   labels:
     app: wait-approval
 spec:
-  replicas: 4
+  replicas: 5
   selector:
     matchLabels:
       app: wait-approval

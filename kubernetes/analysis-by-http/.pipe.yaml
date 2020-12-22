@@ -13,7 +13,7 @@ spec:
           https:
             - url: https://members.palaceworld.net
               method: GET
-              expected: 200
+              expected: "200"
               interval: 1m
       - name: K8S_PRIMARY_ROLLOUT
       - name: K8S_CANARY_CLEAN

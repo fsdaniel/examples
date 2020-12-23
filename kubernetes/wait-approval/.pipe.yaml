@@ -9,3 +9,4 @@ spec:
           approvers:
             - hello-pipecd
       - name: K8S_PRIMARY_ROLLOUT
+      - name: K8S_CANARY_CLEAN

@@ -5,7 +5,7 @@ metadata:
   labels:
     app: wait-approval
 spec:
-  replica: 6
+  replicas: 6
   selector:
     matchLabels:
       app: wait-approval
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: gcr.io/pipecd/helloworld:v0.5.0
+        image: gcr.io/pipecd/helloworldxxxxxcsdsadad:v0.5.0
         args:
           - server
         ports:

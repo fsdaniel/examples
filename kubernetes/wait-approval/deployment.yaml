@@ -23,4 +23,3 @@ spec:
           - server
         ports:
         - containerPort: 9085
-kkljfkld
